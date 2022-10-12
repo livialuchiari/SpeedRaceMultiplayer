@@ -9,16 +9,16 @@ var allPlayers, car1, car2, fuels, powerCoins, obstacles;
 var cars = [];
 
 function preload() {
-  backgroundImage = loadImage("./assets/planodefundo.png");
+  backgroundImage = loadImage("./planodefundo.png");
   car1_img = loadImage("./car1.png");
   car2_img = loadImage("./car2.png");
   track = loadImage("./PISTA.png");
-  fuelImage = loadImage("./assets/fuel.png");
-  powerCoinImage = loadImage("./assets/goldCoin.png");
-  obstacle1Image = loadImage("./assets/obstacle1.png");
-  obstacle2Image = loadImage("./assets/obstacle2.png");
-  lifeImage = loadImage("./assets/life.png");
-  blastImage = loadImage("./assets/blast.png");
+  fuelImage = loadImage("./fuel.png");
+  powerCoinImage = loadImage("./goldCoin.png");
+  obstacle1Image = loadImage("./obstacle1.png");
+  obstacle2Image = loadImage("./obstacle2.png");
+  lifeImage = loadImage("./life.png");
+  blastImage = loadImage("./blast.png");
 }
 
 function setup() {
